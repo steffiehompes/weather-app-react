@@ -1,0 +1,20 @@
+.Forecast {
+  text-align: center;
+}
+.Forecast-day {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ec6e4c;
+}
+
+.Forecast-icon {
+  font-size: 30px;
+}
+.Forecast-temperature {
+  font-size: 13.5px;
+  color: #ec6e4c;
+}
+
+.Temperature-divider {
+  color: #4b6673;
+}
