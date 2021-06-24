@@ -1,6 +1,7 @@
 import "./App.css";
 import Search from "./Search";
 import Forecast from "./Forecast";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Forecast />
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
