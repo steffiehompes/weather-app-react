@@ -28,8 +28,8 @@ function App() {
             <Forecast />
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
