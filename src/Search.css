@@ -12,6 +12,14 @@
   border: 1px solid #4b6673;
 }
 
+.Place {
+  font-size: 35px;
+  font-weight: 900px;
+  line-height: 1.5;
+  padding: 10px;
+  text-align: center;
+}
+
 .Search-button,
 .Location-button {
   box-shadow: 2px 2px 2px #4b6673;

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import "./Search.css";
+import "./LastUpdated";
+import LastUpdated from "./LastUpdated";
 
 export default function Search() {
   const [city, setCity] = useState("");
@@ -60,6 +62,7 @@ export default function Search() {
   return (
     <div>
       {searchForm}
+      <LastUpdated />
       <div className="Place">
         {" "}
         {weather.place}, {weather.country}{" "}
