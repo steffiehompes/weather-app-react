@@ -7,11 +7,9 @@ import LastUpdated from "./LastUpdated";
 
 export default function Search() {
   const [city, setCity] = useState("");
-  const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
 
   function displayWeather(response) {
-    setLoaded(true);
     setWeather({
       place: response.data.name,
       country: response.data.sys.country,
