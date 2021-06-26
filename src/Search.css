@@ -66,8 +66,9 @@
   bottom: 20px;
 }
 
-.Icon-today {
+.Search canvas {
   text-align: center;
   display: block;
   margin: 0 auto;
+  padding: 10px;
 }
