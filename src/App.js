@@ -1,7 +1,6 @@
 import "./App.css";
 import Search from "./Search";
 import Forecast from "./Forecast";
-import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
@@ -31,7 +30,17 @@ export default function App() {
             </div>
           </div>
         </div>
-        <Footer />
+        <footer>
+          <a
+            href="https://github.com/steffiehompes/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+            className="Footer-link"
+          >
+            Open source code
+          </a>{" "}
+          by Steffie Hompes
+        </footer>
       </div>
     </div>
   );

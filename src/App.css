@@ -14,3 +14,14 @@
   max-width: 600px;
   padding: 20px;
 }
+
+.App footer {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.App footer .Footer-link {
+  text-decoration: none;
+  color: #4b6673;
+  font-weight: 600;
+}
