@@ -41,6 +41,7 @@ export default function Search(props) {
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description: response.data.weather[0].description,
+      date: response.data.dt * 1000,
     });
   }
 
@@ -48,7 +49,7 @@ export default function Search(props) {
     return (
       <div>
         {searchForm}
-        <LastUpdated />
+        <LastUpdated date={weather.date} />
         <div className="Place">
           {" "}
           {weather.place}, {weather.country}{" "}
