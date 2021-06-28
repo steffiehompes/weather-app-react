@@ -36,7 +36,7 @@ export default function LastUpdated(props) {
   }
   let currentMinutes = now.getMinutes();
   if (currentMinutes < 10) {
-    currentMinutes = `0{currentMinutes}`;
+    currentMinutes = `0${currentMinutes}`;
   }
 
   return (
