@@ -25,7 +25,6 @@
   box-shadow: 2px 2px 2px #4b6673;
   border: 1px solid #39474e;
   background: #4b6673;
-  opacity: 90%;
   color: #ebe0cc;
   padding: 5px 10px;
 }
@@ -71,4 +70,20 @@
   display: block;
   margin: 0 auto;
   padding: 10px;
+}
+
+.WeatherConversion a {
+  text-decoration: none;
+  color: #4b6673;
+  font-size: 15px;
+}
+.WeatherConversion a:active {
+  color: green;
+}
+
+.WeatherConversion a:hover {
+  color: #ec6e4c;
+}
+.WeatherConversion .ConversionDivider {
+  color: #4b6673;
 }
