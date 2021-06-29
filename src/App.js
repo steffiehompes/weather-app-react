@@ -1,6 +1,5 @@
 import "./App.css";
 import Search from "./Search";
-import Forecast from "./Forecast";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
@@ -9,13 +8,6 @@ export default function App() {
       <div className="container">
         <div className="WeatherApplication">
           <Search defaultCity="Amsterdam" />
-          <div className=" Forecast">
-            <Forecast />
-            <Forecast />
-            <Forecast />
-            <Forecast />
-            <Forecast />
-          </div>
         </div>
         <footer>
           <a

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import LastUpdated from "./LastUpdated";
 import WeatherInfo from "./WeatherInfo";
+import Forecast from "./Forecast";
 
 import "./Search.css";
 import "./LastUpdated.css";
@@ -16,6 +17,7 @@ export default function Search(props) {
     setWeather({
       place: response.data.name,
       country: response.data.sys.country,
+      coords: response.data.coord,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
@@ -60,6 +62,7 @@ export default function Search(props) {
 
         <LastUpdated date={weather.date} />
         <WeatherInfo data={weather} />
+        <Forecast coords={weather.coords} />
       </div>
     );
   } else {
