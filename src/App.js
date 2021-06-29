@@ -9,25 +9,12 @@ export default function App() {
       <div className="container">
         <div className="WeatherApplication">
           <Search defaultCity="Amsterdam" />
-          <div className="row Forecast">
-            <div className="col-2">
-              <Forecast />
-            </div>
-            <div className="col-2">
-              <Forecast />
-            </div>
-            <div className="col-2">
-              <Forecast />
-            </div>
-            <div className="col-2">
-              <Forecast />
-            </div>
-            <div className="col-2">
-              <Forecast />
-            </div>
-            <div className="col-2">
-              <Forecast />
-            </div>
+          <div className=" Forecast">
+            <Forecast />
+            <Forecast />
+            <Forecast />
+            <Forecast />
+            <Forecast />
           </div>
         </div>
         <footer>

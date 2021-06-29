@@ -9,27 +9,28 @@ export default function WeatherInfo(props) {
         {" "}
         {props.data.place}, {props.data.country}{" "}
       </div>
-      <div className="row">
-        <div className="col-4">
-          <div className="Description text-capitalize">
-            {" "}
-            {props.data.description}{" "}
-          </div>
-          <div className="Icon-today">
-            <WeatherIcon code={props.data.icon} />
-          </div>
-        </div>
+      <div className="Description text-capitalize text-center">
+        {" "}
+        {props.data.description}{" "}
+      </div>
+      <div className="Icon-today">
+        <WeatherIcon code={props.data.icon} />
+      </div>
 
-        <div className="col-4 Show-temperature">
+      <div className="row">
+        <div className="col-7 Show-temperature">
+          <i className="ThermoIcon fas fa-thermometer-half"></i>
           <WeatherConversion celsius={props.data.temperature} />
         </div>
-        <div className="col-4">
+        <div className="col-5">
           <ul className="Weather-conditions">
             <li>
-              <strong>Humidity</strong> <span> {props.data.humidity}</span>%
+              <i className="ConditionsIcon fas fa-tint"></i>{" "}
+              <span> {props.data.humidity}</span>%
             </li>
             <li>
-              <strong>Wind</strong> <span>{Math.round(props.data.wind)}</span>
+              <i className="ConditionsIcon fas fa-wind"></i>{" "}
+              <span>{Math.round(props.data.wind)}</span>
               km/h
             </li>
           </ul>

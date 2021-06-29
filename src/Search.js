@@ -44,7 +44,7 @@ export default function Search(props) {
       <div className="Search">
         <form action="" className="mb-2" onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-md-5 mt-1">
+            <div className="col-md-8 mt-1">
               <input
                 type="search"
                 placeholder="Enter your city here"
@@ -52,13 +52,8 @@ export default function Search(props) {
                 onChange={updateCity}
               />
             </div>
-            <div className="col-2 me-4 mt-1">
-              <input type="submit" value="Search" className="Search-button" />
-            </div>
             <div className="col-2 mt-1">
-              <button type="button" className="Location-button">
-                <i className="fas fa-map-pin"></i>
-              </button>
+              <input type="submit" value="Search" className="Search-button" />
             </div>
           </div>
         </form>

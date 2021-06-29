@@ -1,20 +1,19 @@
 .Forecast {
   text-align: center;
+  background-color: rgba(245, 245, 245, 0.2);
+  max-width: 400px;
+  margin: 5px 0px;
 }
-.Forecast-day {
-  font-size: 18px;
+.Forecast .Forecast-day,
+.Forecast .Forecast-temperature {
+  font-size: 17px;
   font-weight: 600;
   color: black;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.Forecast-icon {
+.Forecast .Forecast-icon {
   font-size: 30px;
-}
-.Forecast-temperature {
-  font-size: 13.5px;
-  color: black;
-}
-
-.Temperature-divider {
   color: black;
 }

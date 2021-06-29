@@ -36,7 +36,7 @@ export default function WeatherConversion(props) {
         <span className="Temp-C">
           <a href="/" className="CelsiusTemperature" onClick={ShowCelsius}>
             °C
-          </a>{" "}
+          </a>
           <span className="ConversionDivider">|</span>
           °F
         </span>

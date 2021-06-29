@@ -1,19 +1,18 @@
 .App {
   color: black;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 450px;
+  font-family: "Lora", serif;
 }
-.WeatherApplication {
+.App .WeatherApplication {
   background-image: url("images/backgroundImage.jpg");
   background-size: cover;
-  background-position: 50% 20%;
   border: 1px solid black;
   border-radius: 10px;
   color: black;
-  box-shadow: 2px 2px 2pxblack;
+  box-shadow: 2px 2px 2px black;
   font-family: "Nunito", sans-serif;
   margin: 20px auto 0px;
-  max-width: 650px;
   padding: 20px;
 }
 
