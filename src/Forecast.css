@@ -4,7 +4,7 @@
 .Forecast-day {
   font-size: 18px;
   font-weight: 600;
-  color: #ec6e4c;
+  color: black;
 }
 
 .Forecast-icon {
@@ -12,9 +12,9 @@
 }
 .Forecast-temperature {
   font-size: 13.5px;
-  color: #ec6e4c;
+  color: black;
 }
 
 .Temperature-divider {
-  color: #4b6673;
+  color: black;
 }

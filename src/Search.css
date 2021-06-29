@@ -1,15 +1,14 @@
 .City-input,
 .Search-button,
 .Location-button {
-  background: #ebe0cc;
+  background: black;
   border-radius: 8px;
-  color: #4b6673;
   font-size: 18px;
   padding: 5px 20px;
 }
 .City-input {
   outline: 0;
-  border: 1px solid #4b6673;
+  border: 1px solid black;
 }
 
 .Place {
@@ -22,10 +21,10 @@
 
 .Search-button,
 .Location-button {
-  box-shadow: 2px 2px 2px #4b6673;
-  border: 1px solid #39474e;
-  background: #4b6673;
-  color: #ebe0cc;
+  box-shadow: 2px 2px 2px black;
+  border: 1px solid black;
+  background: black;
+  color: beige;
   padding: 5px 10px;
 }
 
@@ -53,7 +52,7 @@
 .Show-temperature {
   display: block;
   text-align: center;
-  color: #ec6e4c;
+  color: black;
 }
 .Temp-today {
   font-size: 56px;
@@ -74,15 +73,12 @@
 
 .WeatherConversion a {
   text-decoration: none;
-  color: #4b6673;
+  color: black;
   font-size: 15px;
-}
-.WeatherConversion a:active {
-  color: green;
 }
 
 .WeatherConversion a:hover {
-  color: #ec6e4c;
+  color: #4b6673;
 }
 .WeatherConversion .ConversionDivider {
   color: #4b6673;
