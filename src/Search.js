@@ -13,7 +13,6 @@ export default function Search(props) {
   const [weather, setWeather] = useState({});
 
   function displayWeather(response) {
-    setReady(true);
     setWeather({
       place: response.data.name,
       country: response.data.sys.country,
@@ -25,6 +24,7 @@ export default function Search(props) {
       description: response.data.weather[0].description,
       date: response.data.dt * 1000,
     });
+    setReady(true);
   }
   function search() {
     let apiKey = "f27803b22003bacb0df7459dd6dc6bd9";
