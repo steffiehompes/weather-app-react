@@ -15,11 +15,16 @@ export default function Forecast(props) {
     return (
       <div className="Forecast">
         {" "}
-        <div className="row">
-          <div className="col">
-            {" "}
-            <ForecastDay data={forecast[0]} />
-          </div>
+        <div>
+          {forecast.map(function (dailyForecast, index) {
+            if (index < 5)
+              return (
+                <div key={index}>
+                  {" "}
+                  <ForecastDay data={dailyForecast} />
+                </div>
+              );
+          })}
         </div>
       </div>
     );
@@ -32,6 +37,6 @@ export default function Forecast(props) {
 
     axios.get(apiUrl).then(handleResponse);
 
-    return " ";
+    return "Loading forecast ";
   }
 }
